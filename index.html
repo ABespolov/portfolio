@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Artsiom Bespolau</title>
+<meta name="description" content="Senior mobile engineer, Flutter and React Native. Six commercial apps shipped to the App Store and Google Play.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="wrap top">
+  <a class="name" href="https://www.linkedin.com/in/artsiom-bespolau" target="_blank" rel="noopener"><img class="me" src="assets/me.jpg" alt="" width="900" height="1125">Artsiom Bespolau</a>
+  <nav>
+    <a href="#work">Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="wrap intro">
+  <h1>Senior mobile engineer. <span>Flutter and React Native.</span></h1>
+  <p class="lede">8 years building consumer apps. As a tech lead I take products from first prototype to global launch and own everything in between: architecture, performance, payments and releases.</p>
+  <dl class="facts">
+    <div><dt>8</dt><dd>commercial apps shipped</dd></div>
+    <div><dt>6 years</dt><dd>of React Native</dd></div>
+    <div><dt>5 years</dt><dd>of Flutter</dd></div>
+  </dl>
+</section>
+
+<main>
+
+  <h2 class="wrap section" id="work">Experience</h2>
+
+  <!-- 01 EasyMiles -->
+  <article class="case">
+    <figure class="media showcase em">
+      <img class="site" src="assets/em-calendar.jpg" alt="EasyMiles trip calendar on desktop: three days in Paris with timed stops, walks and free time" loading="eager">
+      <img class="raw r1" src="assets/em-place.png" alt="EasyMiles app: a place card with the local guide's notes and what to order" loading="eager">
+      <img class="raw r2" src="assets/em-today.png" alt="EasyMiles app: today's plan built around the Eiffel Tower" loading="eager">
+    </figure>
+    <div class="wrap grid">
+      <div class="meta">
+        <span class="num">01 <span class="fw">· Flutter</span></span>
+        <h2>EasyMiles</h2>
+        <p class="role">Founding Engineer</p>
+      </div>
+      <div class="body">
+        <p class="big">An AI travel agent that plans multi-day trips. iOS, Android and web.</p>
+        <p>First version shipped in two months.</p>
+        <p>Trip planning runs on RAG over a catalog of 20,000 places. An in-trip assistant edits the plan from chat.</p>
+        <dl class="stack">
+          <dt>Frontend</dt><dd>Flutter, Riverpod, GoRouter, Next.js, React, TypeScript</dd>
+          <dt>Backend</dt><dd>Cloud Functions, Firestore, Vertex AI, Gemini, RAG, vector search</dd>
+          <dt>Infra</dt><dd>GCP, Stripe, Sentry, Playwright, GitHub Actions</dd>
+        </dl>
+        <p class="links">
+          <a class="link" href="https://apps.apple.com/app/id6772770632" target="_blank" rel="noopener">App Store</a>
+          <a class="link" href="https://play.google.com/store/apps/details?id=com.easymiles.ai" target="_blank" rel="noopener">Google Play</a>
+          <a class="link" href="https://easymiles.ai" target="_blank" rel="noopener">easymiles.ai</a>
+        </p>
+        <a class="article" href="https://medium.com/@abespolovwork/building-travel-ai-is-an-optimisation-problem-not-a-prompting-problem-89c362a86fc4" target="_blank" rel="noopener"><span>Article</span>Travel AI is an optimisation problem →</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- 02 Boomf -->
+  <article class="case">
+    <figure class="media showcase bf">
+      <img class="site" src="assets/bf-card.jpg" alt="Boomf Create Your Own Greetings Card: product type, card size and personalise" loading="lazy">
+      <img class="phone p1" src="assets/bf-app-shop.jpg" alt="Boomf iOS app: the All Cards catalog with a native tab bar" loading="lazy">
+      <img class="phone p2" src="assets/bf-app-editor.jpg" alt="Boomf iOS app: the 3D box editor on mobile" loading="lazy">
+    </figure>
+    <div class="wrap grid">
+      <div class="meta">
+        <span class="num">02 <span class="fw">· React Native</span></span>
+        <h2>Boomf</h2>
+        <p class="role">Finespace</p>
+        <p class="stat">4M+ <span>customers</span></p>
+      </div>
+      <div class="body">
+        <p class="big">Personalised cards and gifts for 4M+ customers.</p>
+        <p>A 3D product editor in Next.js and Three.js, wired to Shopify checkout.</p>
+        <p>Then the official iOS and Android app in React Native.</p>
+        <dl class="stack">
+          <dt>Frontend</dt><dd>React Native, TypeScript, Next.js, Three.js, React Three Fiber</dd>
+          <dt>Backend</dt><dd>Shopify Storefront API, GraphQL</dd>
+          <dt>Infra</dt><dd>Vercel, Sentry, Detox</dd>
+        </dl>
+        <p class="links">
+          <a class="link" href="https://boomf.com" target="_blank" rel="noopener">boomf.com</a>
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <!-- 03 Street Conquest -->
+  <article class="case">
+    <figure class="media showcase sc">
+      <img class="bg" src="assets/sc-map.jpg" alt="Street Conquest map: buildings, monsters and loot placed along real streets" loading="lazy">
+      <img class="phone p1" src="assets/sc-pass.jpg" alt="Conquest Pass screen with premium and free reward tracks" loading="lazy">
+      <img class="phone p2" src="assets/sc-profile-v5.jpg" alt="Player profile: level 72 hero with equipment set and combat stats" loading="lazy">
+    </figure>
+    <div class="wrap grid">
+      <div class="meta">
+        <span class="num">03 <span class="fw">· Flutter</span></span>
+        <h2>Street Conquest</h2>
+        <p class="role">Mobile Tech Lead, Finespace</p>
+        <p class="stat">100,000+ <span>downloads</span></p>
+      </div>
+      <div class="body">
+        <p class="big">A real-time MMO on the map of your city.</p>
+        <p>Led mobile from first build to global launch.</p>
+        <p>Custom Flutter map stack for thousands of live objects. Real-time sync over Nakama and WebSockets. Battles, missions, inventory, live events.</p>
+        <dl class="stack">
+          <dt>Frontend</dt><dd>Flutter, Flame, MobX, custom map renderer</dd>
+          <dt>Backend</dt><dd>Nakama, WebSockets, Protobuf, Firebase</dd>
+          <dt>Infra</dt><dd>Adapty, Adjust, Sentry, GitLab CI</dd>
+        </dl>
+        <p class="links">
+          <a class="link" href="https://apps.apple.com/app/street-conquest-map-mmo-rpg/id6450893267" target="_blank" rel="noopener">App Store</a>
+          <a class="link" href="https://play.google.com/store/apps/details?id=com.streetconquest.game" target="_blank" rel="noopener">Google Play</a>
+        </p>
+        <a class="article" href="https://medium.com/@abespolovwork/how-i-rendered-thousands-of-game-objects-on-a-mobile-map-466ec4575122" target="_blank" rel="noopener"><span>Article</span>How I rendered thousands of objects on a map →</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- 04 Vidsig -->
+  <article class="case">
+    <figure class="media vs2">
+      <img class="t1" src="assets/vs-prof4.jpg" alt="Vidsig talent page: request a personal video message or book a live chat" loading="lazy">
+      <img class="t2" src="assets/vs-req.jpg" alt="Requesting a birthday video message from a singer" loading="lazy">
+      <img class="t3" src="assets/vs-call.jpg" alt="A live one-on-one video call in progress" loading="lazy">
+    </figure>
+    <div class="wrap grid">
+      <div class="meta">
+        <span class="num">04 <span class="fw">· React Native</span></span>
+        <h2>Vidsig</h2>
+        <p class="role">Webspace Team</p>
+      </div>
+      <div class="body">
+        <p class="big">Personal video messages and live video calls with celebrities, in the spirit of Cameo.</p>
+        <p>Took over after a year of failed in-house work. Rebuilt the React Native and web clients with WebRTC calls.</p>
+        <dl class="stack">
+          <dt>Frontend</dt><dd>React Native, React, TypeScript, WebRTC</dd>
+          <dt>Backend</dt><dd>Node.js, Express, PostgreSQL, Redis, Pusher</dd>
+          <dt>Infra</dt><dd>AWS Fargate, Docker, Stripe</dd>
+        </dl>
+        <a class="link" href="https://webspaceteam.com/portfolio/vidsig" target="_blank" rel="noopener">Case study at Webspace Team</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- 05 EmptyRide -->
+  <article class="case">
+    <figure class="media photo er">
+      <img src="assets/er-promo.jpg" alt="EmptyRide apps: driver profile, ride notifications and a London to Leeds ride" loading="lazy">
+    </figure>
+    <div class="wrap grid">
+      <div class="meta">
+        <span class="num">05 <span class="fw">· React Native</span></span>
+        <h2>EmptyRide</h2>
+        <p class="role">Webspace Team</p>
+      </div>
+      <div class="body">
+        <p class="big">Cheap intercity rides in empty car seats.</p>
+        <p>Two React Native apps, for drivers and passengers, with live location and map search.</p>
+        <dl class="stack">
+          <dt>Frontend</dt><dd>React Native, TypeScript, Vue.js, Google Maps SDK</dd>
+          <dt>Backend</dt><dd>Node.js, Express, PostgreSQL, WebSockets</dd>
+          <dt>Infra</dt><dd>AWS, Firebase, Stripe</dd>
+        </dl>
+        <a class="link" href="https://webspaceteam.com/portfolio/empty-ride" target="_blank" rel="noopener">Case study at Webspace Team</a>
+      </div>
+    </div>
+  </article>
+
+
+
+  <!-- 06 PortrayAI -->
+  <article class="case">
+    <figure class="media phones pa2">
+      <img src="assets/pa-styles2.jpg" alt="PortrayAI app: avatar style packs" loading="lazy">
+      <img src="assets/pa-upload3.jpg" alt="Uploading selfies and training a personal model" loading="lazy">
+      <img src="assets/pa-paywall2.jpg" alt="Choosing an avatar pack after the model is trained" loading="lazy">
+    </figure>
+    <div class="wrap grid">
+      <div class="meta">
+        <span class="num">06 <span class="fw">· React Native</span></span>
+        <h2>PortrayAI</h2>
+        <p class="role">Frontend lead, team of two</p>
+        <p class="stat">~2,000 <span>monthly users</span></p>
+      </div>
+      <div class="body">
+        <p class="big">AI avatars from your photos. Web and mobile.</p>
+        <p>Built the React web app and the React Native app: photo upload, model training, generation, payments.</p>
+        <dl class="stack">
+          <dt>Frontend</dt><dd>React Native, React, TypeScript, MobX</dd>
+          <dt>Backend</dt><dd>Stable Diffusion, DreamBooth fine-tuning, GPU job queue</dd>
+          <dt>Infra</dt><dd>AWS, Stripe, Adapty</dd>
+        </dl>
+        <p class="links">
+          <a class="link" href="https://mail.portray-ai.com/" target="_blank" rel="noopener">portray-ai.com</a>
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <!-- 07 theYou -->
+  <article class="case">
+    <figure class="media phones ty">
+      <img src="assets/ty-home.jpg" alt="theYou app home: best works near you, filtered by nails" loading="lazy">
+      <img src="assets/ty-profile2.jpg" alt="A nail artist's profile with portfolio, rating and booking" loading="lazy">
+      <img src="assets/ty-map.jpg" alt="Map search with specialists pinned around Shoreditch" loading="lazy">
+    </figure>
+    <div class="wrap grid">
+      <div class="meta">
+        <span class="num">07 <span class="fw">· React Native</span></span>
+        <h2>theYou</h2>
+        <p class="role">Webspace Team</p>
+        <p class="stat">20,000+ <span>beauty professionals</span></p>
+      </div>
+      <div class="body">
+        <p class="big">A global marketplace for beauty specialists and salons.</p>
+        <p>Designed and built the React Native app: map search for specialists nearby, portfolios, reviews and business profiles.</p>
+        <dl class="stack">
+          <dt>Frontend</dt><dd>React Native, TypeScript, Reanimated, Google Maps SDK</dd>
+          <dt>Backend</dt><dd>Laravel, MySQL, Elasticsearch</dd>
+          <dt>Infra</dt><dd>Firebase Cloud Messaging, Sentry</dd>
+        </dl>
+      </div>
+    </div>
+  </article>
+
+  <h2 class="wrap section" id="projects">Own projects</h2>
+
+  <!-- 08 Brilliant Ideas -->
+  <article class="case">
+    <figure class="media phones bi">
+      <img src="assets/bi-1.jpg" alt="Brilliant Ideas home: picks for you and The Psychology of Money" loading="lazy">
+      <img src="assets/bi-2.jpg" alt="A story-style insight card" loading="lazy">
+      <img src="assets/bi-5.jpg" alt="The personal library of saved ideas" loading="lazy">
+    </figure>
+    <div class="wrap grid">
+      <div class="meta">
+        <span class="num">08 <span class="fw">· Flutter</span></span>
+        <h2>Brilliant Ideas</h2>
+        <p class="role">Independent project</p>
+      </div>
+      <div class="body">
+        <p class="big">Non-fiction books as short AI insight cards.</p>
+        <p>Built and launched on iOS.</p>
+        <dl class="stack">
+          <dt>Frontend</dt><dd>Flutter, Riverpod</dd>
+          <dt>Backend</dt><dd>Cloud Functions, Firestore, Gemini, structured outputs</dd>
+          <dt>Infra</dt><dd>GCP, Sentry</dd>
+        </dl>
+        <p class="links">
+          <a class="link" href="https://apps.apple.com/app/id6758732801" target="_blank" rel="noopener">App Store</a>
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <!-- 09 Happy Color -->
+  <article class="case">
+    <figure class="media phones">
+      <img src="assets/hc-library.jpg" alt="Happy Color library screen with picture categories" loading="lazy">
+      <img src="assets/hc-cities.jpg" alt="Colored city pictures in the library" loading="lazy">
+      <img src="assets/hc-ramen.jpg" alt="A finished ramen picture with the color palette" loading="lazy">
+    </figure>
+    <div class="wrap grid">
+      <div class="meta">
+        <span class="num">09 <span class="fw">· Flutter</span></span>
+        <h2>Happy Color</h2>
+        <p class="role">Independent project</p>
+      </div>
+      <div class="body">
+        <p class="big">A color-by-number app, rebuilt in Flutter.</p>
+        <p>Artwork revealed by a fragment shader. All numbers drawn in one call. A Python pipeline turns AI line art into pictures.</p>
+        <dl class="stack">
+          <dt>Frontend</dt><dd>Flutter, GLSL shaders, CustomPainter</dd>
+          <dt>Backend</dt><dd>Python, NumPy, image segmentation</dd>
+          <dt>Infra</dt><dd>GitHub Actions</dd>
+        </dl>
+        <a class="link" href="https://github.com/ABespolov/happy-color" target="_blank" rel="noopener">Source on GitHub</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- 10 SEO agent -->
+  <article class="case">
+    <figure class="media mark mark-ink quote">
+      <p class="say">“Plan me three articles we can rank for in the UK this month.”</p>
+    </figure>
+    <div class="wrap grid">
+      <div class="meta">
+        <span class="num">10 <span class="fw">· Cloudflare Workers</span></span>
+        <h2>SEO agent</h2>
+        <p class="role">Designed and built solo</p>
+      </div>
+      <div class="body">
+        <p class="big">An AI agent in Slack that runs a content blog.</p>
+        <p>Reads Search Console, picks topics, writes and edits articles, adds photos and leaves a draft in the CMS.</p>
+        <dl class="stack">
+          <dt>Frontend</dt><dd>Slack app, Prismic</dd>
+          <dt>Backend</dt><dd>Cloudflare Agents SDK, Durable Objects, OpenAI, Gemini, tool calling</dd>
+          <dt>Infra</dt><dd>Cloudflare Workers, Search Console API, DataForSEO</dd>
+        </dl>
+        
+        <a class="article" href="https://medium.com/@abespolovwork/we-automated-almost-our-entire-seo-workflow-then-search-clicks-grew-4-6-9a6a3eecd2d2" target="_blank" rel="noopener"><span>Article</span>How we automated our SEO workflow →</a>
+      </div>
+    </div>
+  </article>
+
+
+
+  <section class="wrap skills" id="skills">
+    <h2 class="section">Skills</h2>
+    <dl class="stack">
+      <dt>Mobile</dt><dd>Flutter, Dart, React Native, Expo, TypeScript, Riverpod, Zustand, TanStack Query</dd>
+      <dt>AI</dt><dd>RAG, embeddings, vector search, tool calling, AI agents, MCP, OpenAI, Gemini, Vertex AI</dd>
+      <dt>Backend</dt><dd>Node.js, Python, FastAPI, PostgreSQL, Supabase, Firebase, Redis, WebSockets, WebRTC</dd>
+      <dt>Cloud</dt><dd>AWS, GCP, Cloudflare Workers, Durable Objects, Docker, GitHub Actions</dd>
+      <dt>Quality</dt><dd>Jest, Playwright, Detox, Sentry, OpenTelemetry, CI/CD</dd>
+      <dt>Product</dt><dd>System design, product ownership, rapid prototyping, technical leadership, hiring and mentoring</dd>
+    </dl>
+  </section>
+
+</main>
+
+<footer id="contact" class="wrap contact">
+  <h2>Let's talk.</h2>
+  <ul>
+    <li><a href="mailto:abespolov@protonmail.com">abespolov@protonmail.com</a></li>
+    <li><a href="https://www.linkedin.com/in/artsiom-bespolau" target="_blank" rel="noopener">LinkedIn</a></li>
+    <li><a href="https://medium.com/@abespolovwork" target="_blank" rel="noopener">Medium</a></li>
+    <li><a href="https://github.com/ABespolov" target="_blank" rel="noopener">GitHub</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>
