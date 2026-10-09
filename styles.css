@@ -55,7 +55,8 @@ h1, h2, .big, .glyph, .say, .name {
 .top {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  gap: 32px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -63,6 +64,10 @@ h1, h2, .big, .glyph, .say, .name {
 .top nav { display: flex; gap: 28px; }
 .top nav a { text-decoration: none; color: var(--muted); }
 .top nav a:hover { color: var(--ink); }
+.top nav { margin-left: auto; }
+.social { display: flex; align-items: center; gap: 16px; }
+.social a { display: flex; color: var(--muted); }
+.social a:hover { color: var(--ink); }
 
 /* Intro */
 .me { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; object-position: 50% 20%; }
@@ -273,7 +278,7 @@ h1, h2, .big, .glyph, .say, .name {
   body { font-size: 17px; }
   .wrap { padding-left: 16px; padding-right: 16px; }
   .top { flex-wrap: wrap; align-items: center; gap: 16px; padding-top: 20px; padding-bottom: 20px; }
-  .top nav { gap: 20px; font-size: 16px; }
+  .top nav { order: 3; width: 100%; margin-left: 0; gap: 20px; font-size: 16px; }
   .contact { padding-top: 64px; padding-bottom: 64px; }
   .skills { padding-bottom: 88px; }
   .intro { padding-top: 24px; padding-bottom: 56px; }
