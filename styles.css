@@ -271,7 +271,11 @@ h1, h2, .big, .glyph, .say, .name {
 
 @media (max-width: 760px) {
   body { font-size: 17px; }
-  .wrap { padding: 0 16px; }
+  .wrap { padding-left: 16px; padding-right: 16px; }
+  .top { flex-wrap: wrap; align-items: center; gap: 16px; padding-top: 20px; padding-bottom: 20px; }
+  .top nav { gap: 20px; font-size: 16px; }
+  .contact { padding-top: 64px; padding-bottom: 64px; }
+  .skills { padding-bottom: 88px; }
   .intro { padding-top: 24px; padding-bottom: 56px; }
   .facts { grid-template-columns: 1fr; gap: 20px; }
   .skills .stack { grid-template-columns: 1fr; }
